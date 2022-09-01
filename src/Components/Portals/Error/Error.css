@@ -1,0 +1,27 @@
+.container__error{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.555);
+    position:fixed;
+    top: 0;
+    z-index: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error{
+    width: 35%;
+    height: 50vh;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button__error{
+    margin-top: 30px;
+}

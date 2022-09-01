@@ -1,0 +1,48 @@
+.container__planes {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.planes {
+    height: 90%; 
+    width: 22%;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(0deg, #f25c05 0%, #f25c05 100%);
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.planes:hover {
+    transform: scale(1.05);
+    background: linear-gradient(0deg, rgba(255, 151, 0, 1) 0%, #f25c05 100%);
+    transition: all .5s;
+    box-shadow: 0px 0px 70px 5px rgba(0, 0, 0, 0.35);
+}
+
+.container__planes-text{
+    /* margin-top: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.semillita{
+    display: flex;
+    margin-top: 4px;
+}
+
+.container__planes-text>p{
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    margin-top: 5px;
+}
