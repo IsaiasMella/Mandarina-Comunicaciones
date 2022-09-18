@@ -1,12 +1,15 @@
-import React, { useContext } from 'react'
+import React from 'react'
 import './Footer.css'
 import fondo from '../../Img/fondo.jpg'
 import { Button } from '../Buttons/Buttons'
-// import PortalContext from '../../Context/contextPortal'
+import { useModal } from '../../Hooks/useModal'
+import Portals from '../Portals/Portals'
+import { Error } from '../Portals/Error/Error'
 
 export const Footer = () => {
+    const [portalAbiertoError, handlePortalError] = useModal(false)
     return (
-        <div className='container__footer' name='contacto'>
+        <div className='container__footer' name='contacto'> 
             <div className='container__img-footer'>
                 <img src={fondo} alt='fondo' />
             </div>
@@ -14,10 +17,13 @@ export const Footer = () => {
                 <p className='footer__title'>Contactate con nosotras</p>
                 <div className='container__form'>
                     <form className='form'>
-                        <input type='text' placeholder='Nombre' tabIndex="1" ></input>
-                        <input type='mail' placeholder='Email' tabIndex="2"></input>
-                        <textarea placeholder='¿Cuál es tu objetivo?' tabIndex="3" ></textarea>
-                        <Button tipo='error' text='Enviar' />
+                        <input type='text' placeholder='Nombre' tabIndex="1" required ></input>
+                        <input type='mail' placeholder='Email' tabIndex="2" required></input>
+                        <textarea placeholder='¿Cuál es tu objetivo?' tabIndex="3" required ></textarea>
+                        <Button text='Enviar' handlePortal={handlePortalError} />
+                        <Portals portalAbierto={portalAbiertoError} handlePortal={handlePortalError}>
+                            <Error handlePortal={handlePortalError} />
+                        </Portals>
                     </form>
                 </div>
                 <div className='container__icon'>

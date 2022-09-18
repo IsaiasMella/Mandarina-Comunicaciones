@@ -1,15 +1,3 @@
-.container__error{
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.555);
-    position:fixed;
-    top: 0;
-    z-index: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .error{
     width: 35%;
     height: 50vh;
@@ -20,8 +8,19 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: fixed;
+    z-index: 600;
 }
 
 .button__error{
     margin-top: 30px;
+}
+
+
+@media only screen and (max-width:900px){
+    .error{
+        width: 80%;
+        height: 40vh;
+        padding: 0 20px;
+    }
 }

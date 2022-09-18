@@ -1,0 +1,10 @@
+.container__menu-nav {
+    fill: #fff ;
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

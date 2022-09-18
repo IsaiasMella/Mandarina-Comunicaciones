@@ -36,20 +36,19 @@
     color: #f25c05;
 }
 
-.tips-pregunta {
-    color: #f25c05;
-}
+@media only screen and (max-width: 900px){
+    .container__nosotras{
+        flex-direction: column;
+        height: auto;
+        margin: 50px auto;
+    }
 
-.container__nosotras-button {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
+    .video{
+        width: 100%;
+        margin-bottom: 40px;
+    }
 
-/*el Boton*/
-.nosotras__button {
-    text-decoration: none;
-    text-align: center;
-    margin: 0 15px;
+    .nosotras{
+        width: 100%;
+    }
 }
