@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Mandarina Comunicaciones
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![ttt](https://user-images.githubusercontent.com/67384494/186704461-7da26d49-8215-4022-b344-f5b5767d19cc.jpg)
 
-## Available Scripts
+Descripción del proyecto
 
-In the project directory, you can run:
+Es una pagina web creada para un Agencía de Marketing digital donde se pueden ver las servicios que ofrecen, distindos planes o paquetes, tips en formato de video, además cuenta con un formulario para enviarles un mail como una de las formas de contactar a la agencia.
 
-### `npm start`
+Nota Extra:\
+Ésta pagina tambien fue utilizada para la defensa del TIF (Trabajo Integrador Final), una TESIS en la Lic. en Comunicación Social y calificada con la Nota de 9
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Link a la pagina:\
+https://mandarina-comunicaciones.vercel.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Especificaciones técnicas\
+Este proyecto fue creado con React.Js y utiliza las siguientes tecnologias:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-HTML5\
+-CSS3\
+-JavaScript\
+-React-Router-Dom para generar la SPA\
+-React-Scroll para facilitar el scrolling\
+-Hooks:\
+  +useState\
+  +useEffect\
+  +Hook Personalizado
